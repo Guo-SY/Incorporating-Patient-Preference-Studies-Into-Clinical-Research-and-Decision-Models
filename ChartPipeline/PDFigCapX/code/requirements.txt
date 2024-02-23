@@ -1,0 +1,8 @@
+#Model: PdfigCAPX
+
+#Requirement Packages
+selenium==4.15.2
+apt-get -y imagemagick
+convert --version
+
+#Requirement Packages
