@@ -7,7 +7,7 @@
 
       1.1 If you just need to extract chart information, just run the code TablePipeline.ipynb
 
-      # in the ModuleChartDataExtractionPipeline.ipynb
+      # Run ./Incorporating-Patient-Preference-Studies-Into-Clinical-Research-and-Decision-Models/ChartPipeline/ModuleChartDataExtractionPipeline.ipynb
 
 
                   #main_chart(input_path="/content/ingresso",output_path="/content/uscita")
