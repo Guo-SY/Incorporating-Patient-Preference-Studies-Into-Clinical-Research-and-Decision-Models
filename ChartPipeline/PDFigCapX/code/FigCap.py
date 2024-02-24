@@ -11,10 +11,10 @@ structure (xpdf_process):
 3. Mess up pdf processing
 
 Finally, you need to change the path to the code location
-      1) first change: in the line 25
-         sys.path.append('./PDFigCapX/code/')
+      1) first change: in the line 31
+         sys.path.append('./ChartPipeline/PDFigCapX/code/')
 
-      2) second change: in the line 102
+      2) second change: in the line 109
          std_out = subprocess.check_output(["./PDFigCapX/pdftohtml", input_path+'/'+pdf, xpdf_path+pdf[:-4]+'/'])
 
       3) Other changes in the outside of code.(inputpath and outputpath)
@@ -28,7 +28,7 @@ Finally, you need to change the path to the code location
 """
 # Change path to your code location
 import sys
-sys.path.append('/content/drive/MyDrive/ADSP_Project/Code/ChartPipeline/PDFigCapX/code/')
+sys.path.append('./ChartPipeline/PDFigCapX/code/')
 
 
 import os
@@ -78,6 +78,7 @@ def main():
 
     # input_path = "/content/drive/MyDrive/ADSP/documents/pdffiles_inhaler/files"
     # output_path = "/content/drive/MyDrive/ADSP/ADSP Chart Detection-20240108T174439Z-001/ADSP Chart Detection/output/"
+    
     xpdf_path = output_path +'/xpdf/'
     log_file = output_path + '/log.text'
     f_log = open(log_file, 'w')
@@ -105,7 +106,7 @@ def main():
                 if not os.path.isdir(xpdf_path+pdf[:-4]):
                     # print('AAAA')
 
-                    std_out = subprocess.check_output(["/content/drive/MyDrive/ADSP_Project/Code/ChartPipeline/PDFigCapX/pdftohtml", input_path+'/'+pdf, xpdf_path+pdf[:-4]+'/'])
+                    std_out = subprocess.check_output(["./ChartPipeline/PDFigCapX/pdftohtml", input_path+'/'+pdf, xpdf_path+pdf[:-4]+'/'])
             except:
                 # print('AAAA')
                 print("\nWrong "+pdf+"\n")
