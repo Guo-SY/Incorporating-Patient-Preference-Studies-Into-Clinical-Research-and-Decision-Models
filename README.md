@@ -6,7 +6,10 @@
 
 
       1.1 If you just need to extract chart information, just run the code TablePipeline.ipynb
-      
+
+      # in the ModuleChartDataExtractionPipeline.ipynb
+
+
                   #main_chart(input_path="/content/ingresso",output_path="/content/uscita")
             
             
