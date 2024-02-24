@@ -7,7 +7,8 @@
 
       1.1 If you just need to extract chart information, just run the code TablePipeline.ipynb
 
-      # Run ./Incorporating-Patient-Preference-Studies-Into-Clinical-Research-and-Decision-Models/ChartPipeline/ModuleChartDataExtractionPipeline.ipynb
+ 
+ Run ./Incorporating-Patient-Preference-Studies-Into-Clinical-Research-and-Decision-Models/ChartPipeline/ModuleChartDataExtractionPipeline.ipynb
 
 
                   #main_chart(input_path="/content/ingresso",output_path="/content/uscita")
@@ -26,7 +27,7 @@
 
      2.1 If you just need to extract table information, you can run the code ModuleChartDateExtraction.ipynb
 
-     # in the TablesPipeline.ipynb
+     Run ./Incorporating-Patient-Preference-Studies-Into-Clinical-Research-and-Decision-Models/ChartPipeline/TablesPipeline.ipynb
 
             # main_tables(input_path="/content/ingresso", output_path="/content/uscita")
 
