@@ -20,7 +20,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 import subprocess
-chmod_command = "chmod 777 /content/drive/MyDrive/ADSP_Project/Code/ChartPipeline/PDFigCapX/pdftohtml"
+chmod_command = "chmod 777 ./Incorporating-Patient-Preference-Studies-Into-Clinical-Research-and-Decision-Models/ChartPipeline/PDFigCapX/pdftohtml"
 subprocess.run(chmod_command, shell=True)
 #-------------------------------------------#
 
