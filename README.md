@@ -38,14 +38,11 @@
 
 
 
-3. In the whole pipeline, just run the final code. GUI.ipynb
+3. In the whole pipeline, just run the final code GUI.ipynb
 
 
-      %run /content/drive/MyDrive/ADSP_Project/Code/ChartPipeline/ModuleChartDataExtractionPipeline.ipynb
+      In the final GUI.ipynb, we provide you with a chat box where you can simply type in your input path and output path and then get the expected results.
    
-      %run /content/drive/MyDrive/ADSP_Project/Code/TablesPipeline.ipynb
-
-      We provide a chat box for you, you just need type your inputpath and outpath, after that you could get your expected results 
       ![image](https://github.com/Guo-SY/Incorporating-Patient-Preference-Studies-Into-Clinical-Research-and-Decision-Models/assets/95298812/5e546c75-2087-4c9e-b169-9adc6770bb94)
    
 
