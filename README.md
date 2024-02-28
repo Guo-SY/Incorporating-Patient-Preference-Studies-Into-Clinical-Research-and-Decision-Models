@@ -3,7 +3,7 @@
 
 
 
-##How to run the code
+## How to run the code
 
 
 1. In the ChartPipeline, it includes two models: PDFigCapX model and ChartOCR
