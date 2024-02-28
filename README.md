@@ -4,9 +4,8 @@
 After downloaded the code of PDFigCapX in this github repository and downloaded the code of ChartOCR in this repository: https://drive.google.com/drive/folders/11e1d-zDKTjlyr7FcyLpiuVeSG4XL0d4A?usp=sharing      , in ModuleChartDataExtractionPipeline change this following path:
 
  
-1. Inside the Deeprule directory you have to look for the path of this 2 directory:  
-      DeepRule/models/py_utils/_cpools
-      DeepRule/external
+1. Inside the Deeprule directory you have to look for the path of this 2 directory:  DeepRule/models/py_utils/_cpools  and   DeepRule/external
+      
 
    Then you have to change the path in the code you can see in the figure with these 2 path that you find and the path of the DeepRule directory
    ![1](https://github.com/Guo-SY/Incorporating-Patient-Preference-Studies-Into-Clinical-Research-and-Decision-Models/assets/33226736/74ab38b7-19da-497a-8871-fbbaf9e7f996)
