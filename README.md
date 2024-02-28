@@ -1,6 +1,11 @@
 # Incorporating-Patient-Preference-Studies-Into-Clinical-Research-and-Decision-Models
 
 
+
+
+##How to run the code
+
+
 1. In the ChartPipeline, it includes two models: PDFigCapX model and ChartOCR
 
 
